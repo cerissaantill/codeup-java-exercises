@@ -21,7 +21,6 @@ public class HelloWorld {
 
 
 
-
 //   // Change your code to assign a character value to myString. What do you notice?
 
 //        String myString = "H"; // incompatible types
