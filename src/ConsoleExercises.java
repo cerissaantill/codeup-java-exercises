@@ -1,4 +1,5 @@
 //import java.sql.SQLOutput;
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class ConsoleExercises {
@@ -24,16 +25,20 @@ public class ConsoleExercises {
 
 
 // 2. Prompt a user to enter 3 words and store each of them in a separate variable, then display them back, each on a newline.
-        System.out.println("Enter three words");
-        String userInputFirst = scanner.next();
-        String userInputSecond = scanner.next();
-        String userInputThird = scanner.next();
+        System.out.println("Enter three words: ");
+        String word1 = scanner.next();
+        String word2 = scanner.next();
+        String word3 = scanner.next();
         scanner.nextLine();
+        System.out.println(word1);
+        System.out.println(word2);
+        System.out.println(word3);
+
 
 
 
 // 3. Prompt a user to enter a sentence, then store that sentence in a String variable using the .next method, then display that sentence back to the user.
-        System.out.println("\nEnter a Sentence\n");
+        System.out.println("\nEnter a Sentence: \n");
         String userSentence = scanner.nextLine();
         System.out.format("Your sentence is %s", userSentence);
         System.out.println();
@@ -43,7 +48,6 @@ public class ConsoleExercises {
         //   2.  use `.next()` instead of .nextLine for your text inputs
 
 // 4. Rewrite the above example using the .nextLine method.
-
 
 
 
@@ -80,7 +84,7 @@ public class ConsoleExercises {
         float perimeter = (length*2) + (width*2);
         float area = length * width;
         float volume = length * width * height;
-        System.out.format("You entered the number: %d.\nYou entered the words: %s, %s,  %s. \nYour sentence was: %s \n", userInteger, userInputFirst, userInputSecond, userInputThird, userSentence);
+        System.out.format("You entered the number: %d.\nYou entered the words: %s, %s,  %s. \nYour sentence was: %s \n", userInteger, word1, word2, word3, userSentence);
 
 
         System.out.format("\nThe perimeter of the room is %.2f feet.\nThe area of the room is %.2f square feet.\nThe volume of the room is %.2f cubed feet.\n", perimeter, area, volume);
