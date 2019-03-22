@@ -35,6 +35,8 @@ public class StringExercise {
         System.out.println(message);
 
 
+    }
+}
 
 
 //  2.  Create a class named Bob with a main method for the following exercise.
@@ -54,15 +56,5 @@ public class StringExercise {
 
 
 
-    }
-}
 
 
-
-
-
-
-
-
-    }
-}
