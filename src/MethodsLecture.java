@@ -14,10 +14,10 @@ public class MethodsLecture {
 //        sum(sum(9, 11), 14);
 
 
-        Student cory = new Student("Cory", 99);
-        Student bethany = new Student("Bethany", 95);
+        Student cory = new Student("Cory");
+        Student bethany = new Student("Bethany");
         System.out.println(Student.studentCount);
-        System.out.println(sayHello(bethany, name));
+//        System.out.println(sayHello(bethany, name));
         System.out.printf("Area of circle wih radius 3 is %f");
 
     }
