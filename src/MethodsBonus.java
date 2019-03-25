@@ -18,6 +18,7 @@ public class MethodsBonus {
     Seperate your logic into various methods, as needed.
 
 
+
 ---- BONUS 2
 
     Create a date format converter tool in a class called DateConverter.
