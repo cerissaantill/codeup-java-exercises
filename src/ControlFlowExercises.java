@@ -181,8 +181,7 @@ public class ControlFlowExercises {
         - Ask if the user wants to continue.
         - Assume that the user will enter valid data.
         - Only continue if the user agrees to.
-
-        */
+*/
 
 
         String userChoice;
@@ -231,12 +230,11 @@ public class ControlFlowExercises {
             C : 79 - 67
             D : 66 - 60
             F : 59 - 0
-                                                                               */
-
+                                                                               *
+                                                                               *
 /*
         Bonus:
         - Edit your grade ranges to include pluses and minuses (ex: 99-100 = A+).
-
 */
 
 
