@@ -2,34 +2,37 @@ package Bonus;//package oopShortAssignment1;
 
 
 
-class RestaurantDish {
+//class RestaurantDish {
+//
+//    public int costInCents;
+//    public String nameOfDish;
+//    public boolean wouldRecommend;
+//    public void eat() {
+//        System.out.println("\nNom nom nom!\n");
+//    }
+//
+//
+//    public static void main(String[] args) {
+//        RestaurantDish dish = new RestaurantDish();
+//        dish.costInCents = 3000;
+//        dish.nameOfDish = "\nPasta\n";
+//        dish.wouldRecommend = true;
+//        dish.eat();
+//
+//        System.out.printf("\n%d %s %b\n",
+//                dish.costInCents,
+//                dish.nameOfDish,
+//                dish.wouldRecommend);
+//
+//    }
+//    //  /main
+//
+//}
+////  /Bonus.RestaurantDish
+//
+//
 
-    public int costInCents;
-    public String nameOfDish;
-    public boolean wouldRecommend;
-    public void eat() {
-        System.out.println("\nNom nom nom!\n");
-    }
-
-
-    public static void main(String[] args) {
-        RestaurantDish dish = new RestaurantDish();
-        dish.costInCents = 3000;
-        dish.nameOfDish = "\nPasta\n";
-        dish.wouldRecommend = true;
-        dish.eat();
-
-        System.out.printf("\n%d %s %b\n",
-                dish.costInCents,
-                dish.nameOfDish,
-                dish.wouldRecommend);
-
-    }
-    //  /main
-
-}
-//  /Bonus.RestaurantDish
-
+/* COMMENTED OUT TO PREVENT CONFLICTS WITH RestaurantDish.java
 
 
 
