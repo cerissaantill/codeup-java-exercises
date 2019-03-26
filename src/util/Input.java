@@ -2,7 +2,9 @@ package util;
 
 import java.util.Scanner;
 
+
 // create a class named Input that has a private property named Scanner.
+
 public class Input {
     private Scanner scanner;
 
