@@ -66,30 +66,33 @@ class BurgerTools {
 //
 
 
-class RestaurantDish {
+//class RestaurantDish {
+//
+//    private int costInCents;
+//    private String nameOfDish;
+//    private boolean wouldRecommend;
+//    private void eat() {
+//        System.out.println("\nNom nom nom!\n");
+//    }
+//
+//
+//    public static void main(String[] args) {
+//        RestaurantDish dish = new RestaurantDish();
+//        dish.costInCents = 3000;
+//        dish.nameOfDish = "\nPasta\n";
+//        dish.wouldRecommend = true;
+//        dish.eat();
+//
+//        System.out.printf("\n%d %s %b\n",
+//                dish.costInCents,
+//                dish.nameOfDish,
+//                dish.wouldRecommend);
+//
 
-    private int costInCents;
-    private String nameOfDish;
-    private boolean wouldRecommend;
-    private void eat() {
-        System.out.println("\nNom nom nom!\n");
-    }
 
 
-    public static void main(String[] args) {
-        RestaurantDish dish = new RestaurantDish();
-        dish.costInCents = 3000;
-        dish.nameOfDish = "\nPasta\n";
-        dish.wouldRecommend = true;
-        dish.eat();
-
-        System.out.printf("\n%d %s %b\n",
-                dish.costInCents,
-                dish.nameOfDish,
-                dish.wouldRecommend);
-
-    }
+//    }
     //  /main
 
-}
+//}
 //  /Bonus.RestaurantDish
