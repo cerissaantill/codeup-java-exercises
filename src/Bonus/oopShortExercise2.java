@@ -7,9 +7,9 @@ class BurgerTools {
     private String mostPopularTopping;
     private int averageDaysBeforeExpiration;
     private int temperatureWhenCooked;
-    public void grill() {
-        System.out.print(BurgerTools.toString());
-    }
+//    public void grill() {
+//        System.out.print(BurgerTools.toString());
+//    }
 
     class BurgerTester {
         private String mostPopularTopping;
