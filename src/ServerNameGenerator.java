@@ -56,15 +56,8 @@ public class ServerNameGenerator {
 
 
 
-
-
-
-
-
-
     }
     // closes main method
-
 
 }
 // closes ServerNameGenerator class
