@@ -44,8 +44,11 @@ public class ArraysExercises {
     //  the passed person object at the end of the array.
 
 
-    public static Person[] addPerson(Person[] people, Person singlePeople) {
-        Person[] newListOfPeople = Arrays.copyOf(people, people.length + 1);
+
+    // THE CODE BELOW WILL NOT OUTPUT CORRECTLY, CHECK AGAINST ZION REPO /////////////////////
+
+    Person[] addPerson(Person[] people, Person singlePeople) {
+        Person[] newListOfPeople = addPerson(people, new Person("Kathryn"));
 
         // // can also use constructor below:
         // newPeople = new Person[oldPeople.length+1];
@@ -57,9 +60,11 @@ public class ArraysExercises {
 
 
 
+
+
+
     }
     // closes static Person[]
-
 
 
 }
