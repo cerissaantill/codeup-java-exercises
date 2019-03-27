@@ -1,4 +1,4 @@
-package Bonus;//package oopShortAssignment1;
+package bonus;//package oopShortAssignment1;
 
 
 
@@ -28,7 +28,7 @@ package Bonus;//package oopShortAssignment1;
 //    //  /main
 //
 //}
-////  /Bonus.RestaurantDish
+////  /bonus.RestaurantDish
 //
 //
 
@@ -39,7 +39,7 @@ package Bonus;//package oopShortAssignment1;
 /*
 - OOP SHORT ASSIGNMENT #1 --
 
-        Create a class called "Bonus.RestaurantDish" (you should not include quotes)
+        Create a class called "bonus.RestaurantDish" (you should not include quotes)
 
         Include an integer property called "costInCents"
         Include a string property called "nameOfDish"
@@ -49,7 +49,7 @@ package Bonus;//package oopShortAssignment1;
 
         Create another class called RestaurantTest
         Add a main method and inside the method...
-        1) instantiate a Bonus.RestaurantDish object called "dish"
+        1) instantiate a bonus.RestaurantDish object called "dish"
         2) assign creative values for each of the properties
         3) print out each of the property values
         4) test the eat() method by calling it

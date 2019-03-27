@@ -1,4 +1,4 @@
-package Bonus;
+package bonus;
 
 public class BurgerTools {
     String mostPopularTopping;

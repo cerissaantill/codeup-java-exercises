@@ -184,7 +184,7 @@ public class MethodsExercises {
        Food for thought: What happens if we try to divide by zero? What should happen?
 
 
-           Bonus
+           bonus
 
     a. Create your multiplication method without the * operator (Hint: a loop might be helpful).
     b. Do the above with recursion.
@@ -221,7 +221,7 @@ public class MethodsExercises {
                 3! = 1 x 2 x 3       = 6
                 4! = 1 x 2 x 3 x 4   = 24
 
-        Bonus
+        bonus
 
         Test the application and find the integer for the highest factorial that can be accurately calculated by this application, then modify the prompt so that it prompts the user for a number "from 1 to {the highest integer that returns accurate factorial calculation}". Don’t forget to change your verification too!
         Use Recursion to implement the factorial.
@@ -254,7 +254,7 @@ public class MethodsExercises {
         Hints
         - Use the random method of the java.lang.Math class to generate a random number.
 
-        Bonus
+        bonus
        -  Keep track of how many guesses a user makes
        -  Set an upper limit on the number of guesses
 */

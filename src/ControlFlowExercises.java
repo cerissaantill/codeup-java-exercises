@@ -233,7 +233,7 @@ public class ControlFlowExercises {
                                                                                *
                                                                                *
 /*
-        Bonus:
+        bonus:
         - Edit your grade ranges to include pluses and minuses (ex: 99-100 = A+).
 */
 

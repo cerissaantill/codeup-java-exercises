@@ -86,7 +86,7 @@ public class ConsoleExercises {
 */
 
 /*
- 3. Bonus:
+ 3. bonus:
   - Accept decimal entries
   - Calculate the volume of the rooms in addition to the area and perimeter
 

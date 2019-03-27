@@ -1,4 +1,4 @@
-package Bonus.madlib;
+package bonus.madlib;
 
 public class oopMadLibBonus {
 
