@@ -132,15 +132,20 @@ public class ArraysNotes {
         System.out.println();
 
 
+
         System.out.println(Arrays.toString(players));
         Arrays.sort(players);
+
 
 
         // adding spacing
         System.out.println();
 
 
+
         System.out.print(Arrays.copyOf(players, 3));
+
+
 
 
         // adding spacing
