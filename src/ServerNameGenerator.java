@@ -47,12 +47,12 @@ public class ServerNameGenerator {
            nouns[9] = "crock";
 
 
-    int randomAdj = (int) (Math.random() + adjectives.length+-1);
-    int random = (int) (Math.random() + nouns.length+-1);
+    int randomAdj = (int) (Math.random() * adjectives.length-1);
+    int random = (int) (Math.random() * nouns.length-1);
 
         System.out.println();
 
-    System.out.println("Your Randomly Generated Server Name: \n" + adjectives[randomAdj] + "-" + nouns[random] + ".");
+    System.out.println("Randomly generated server name: \n" + adjectives[randomAdj] + "-" + nouns[random] + ".");
 
 
 
