@@ -59,16 +59,16 @@ public class Input {
 
 
     // double getDouble(double min, double max) method ...
-    public double getDouble(double min, double max) {
-
-    }
+//    public double getDouble(double min, double max) {
+//
+//    }
 
 
 
     // double getDouble() method ...
-    public double getDouble() {
-
-    }
+//    public double getDouble() {
+//
+//    }
 
     public static void main(String[] args) {
         Input in = new Input();
