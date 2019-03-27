@@ -19,12 +19,9 @@ public class BurgerTester {
         System.out.println(burger.mostPopularTopping);
         System.out.println(burger.averageDaysBeforeExpiration);
         System.out.println(burger.temperatureWhenCooked);
-
     }
 
 }
-
-
 
 // ===================================
 //

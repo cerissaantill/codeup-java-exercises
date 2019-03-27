@@ -13,8 +13,6 @@ public class BurgerTools {
         this.averageDaysBeforeExpiration = expiration;
         this.temperatureWhenCooked = temp;
     }
-
-
 }
 
 

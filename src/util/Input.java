@@ -8,41 +8,75 @@ import java.util.Scanner;
 public class Input {
     private Scanner scanner;
 
-    public Input(Scanner scanner) {
-        this.scanner = scanner;
+    public Input() {
+        this.scanner = new Scanner(System.in);
     }
+
+
 
     // create String getString() method that return command line  user input
     public String getString() {
         return scanner.nextLine();
     }
 
-    // create boolean yesNo() method that returns command line user input
+
+
+    // boolean yesNo() method that returns command line user input
     public boolean yesNo() {
-        String userInput = getString();
-        return (userInput.equalsIgnoreCase("y") || userInput.equalsIgnoreCase("n"));
+        String result = scanner.next();
+        return result.equalsIgnoreCase("y") || result.equalsIgnoreCase("yes");
     }
 
-    // create int getInt(int min, int max) method ...
-    public int getInt(int min, int max) {
-        return
-    }
 
-    // create int getInt() method ...
+
+    // int getInt() method ...
     public int getInt() {
-
+        if (scanner.hasNextInt()) {
+            return scanner.nextInt();
+        }
+        scanner.next();
+        return getInt();
     }
 
-    // create double getDouble(double min, double max) method ...
+
+
+
+    // int getInt(int min, int max) method ...
+    int getInt(int min, int max) {
+
+        int userInt = getInt();
+        if (userInt >= min && userInt <= max) {
+            return userInt;
+        }
+        scanner.nextInt();
+        return getInt(min, max);
+    }
+
+
+
+
+
+
+
+    // double getDouble(double min, double max) method ...
     public double getDouble(double min, double max) {
 
     }
 
-    // create double getDouble() method ...
+
+
+    // double getDouble() method ...
     public double getDouble() {
 
     }
 
+    public static void main(String[] args) {
+        Input in = new Input();
+        System.out.println("Enter yes or no [y/n");
+        System.out.println(in.yesNo());
+
+        System.out.println(in.getInt());
+    }
 
 
 
