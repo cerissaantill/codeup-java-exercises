@@ -108,7 +108,7 @@ public class ArraysNotes {
 // Create an array of strings that contain 4 - 15 items:
 
 
-        System.out.println("The Spurs starting 5 are: ");
+        System.out.println("The March 2019 Spurs starting 5 are: ");
 
         // adding spacing
         System.out.println();
