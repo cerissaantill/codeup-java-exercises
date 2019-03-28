@@ -1,5 +1,7 @@
 package shapes;
 
+import java.lang.Math;
+
 public class Rectangle {
 
 
@@ -23,16 +25,19 @@ public class Rectangle {
     }
 
 
+
+    public int getPerimeter() {
+        int perimeter = (2*length) + (2*width);
+        return perimeter;
+    }
+
+
     public int getArea() {
         int area = length * width;
         return area;
     }
 
 
-    public int getPerimeter() {
-        int perimeter = (2*length) + (2*width);
-        return perimeter;
-    }
 
 
     public void getInfo() {
