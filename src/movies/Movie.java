@@ -2,6 +2,7 @@ package movies;
 
 public class Movie {
 
+    // structures the movie names and categories in the MoviesArray.java file
     private String name;
     private String category;
 
@@ -33,8 +34,10 @@ public class Movie {
         this.category = category;
 
 
-
-
-
     }
-}
+
+
+
+
+
+}  // closes Movie class
