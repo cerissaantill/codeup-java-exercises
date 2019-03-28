@@ -1,4 +1,4 @@
-package practice;
+package oopPractice;
 
 public class DataTypePractice {
     public static void main(String[] args) {

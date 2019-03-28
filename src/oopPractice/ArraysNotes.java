@@ -1,4 +1,4 @@
-package practice;
+package oopPractice;
 import java.util.Arrays;
 
 public class ArraysNotes {
