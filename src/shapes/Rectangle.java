@@ -1,9 +1,50 @@
 package shapes;
 
-import java.lang.Math;
+public class Rectangle extends Quadrilateral implements Measurable {
 
 
-public class Rectangle {
+    // Command N automatically creates skeleton of all methods
+    //  that need to be implemented.
+
+    double length() {
+        return 0;
+    }
+
+
+    double width() {
+        return 0;
+    }
+
+
+    double getPerimeter() {
+        return 0;
+    }
+
+
+    double getArea() {
+        return 0;
+    }
+
+
+
+
+
+
+
+
+// --- OLD-  all code below is from the previous exercise before refactoring: ----
+
+
+/* //  Inheritance & Polymorphism Exercise:
+
+//  1. The rectangle class should have protected properties for both length and width.
+//      Rectangle should define a constructor that accepts two numbers
+//      for length and width, and sets those properties.
+
+//      Create two methods on the Rectangle class, getArea and getPerimeter
+//       that return the respective values.
+
+
 
 
     protected double length;
@@ -14,17 +55,6 @@ public class Rectangle {
         this.length = length;
         this.width = width;
     }
-
-
-//    public void setLength(int length) {
-//        this.length = length;
-//    }
-//
-//
-//    public void setWidth(int width) {
-//        this.width = width;
-//    }
-
 
 
     public double getPerimeter() {
@@ -50,19 +80,15 @@ public class Rectangle {
             }
         }
 
+*/
+
 
 
 }  // closes Rectangle class
 
 
-//  Inheritance & Polymorphism Exercise:
 
-//  1. The rectangle class should have protected properties for both length and width.
-//      Rectangle should define a constructor that accepts two numbers
-//      for length and width, and sets those properties.
-//
-//      Create two methods on the Rectangle class, getArea and getPerimeter
-//       that return the respective values.
+
 
 
 
