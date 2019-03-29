@@ -3,27 +3,22 @@ package shapes;
 public class Rectangle extends Quadrilateral implements Measurable {
 
 
-    // Command N automatically creates skeleton of all methods
-    //  that need to be implemented.
 
-    double length() {
-        return 0;
+    public double getPerimeter() {
+        return 2*length + 2*width;
     }
 
 
-    double width() {
-        return 0;
+    public double getArea() {
+        return length*width;
+    }
+
+    public Rectangle(int length, int width) {
+        super(length, width);
     }
 
 
-    double getPerimeter() {
-        return 0;
-    }
 
-
-    double getArea() {
-        return 0;
-    }
 
 
 
