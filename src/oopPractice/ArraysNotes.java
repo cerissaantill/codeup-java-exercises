@@ -176,10 +176,6 @@ public class ArraysNotes {
         };
 
 
-
-
-
-
     }
     // closes main
 
