@@ -8,10 +8,9 @@ public class GradesApplication {
 
     public static void main(String[] args) {
 
+        HashMap<String, Student> students = new HashMap<>();
 
-        Map<String, Student> students = new HashMap<>();
-
-        // import input class:
+            // import input class:
             Input input = new Input();
 
 
@@ -86,10 +85,25 @@ public class GradesApplication {
                 System.out.print("> " + userInput);
             }
 
-        } while (input.yesNo("\nWould you like to view another user?"));
+        } while (input.yesNo());
+        System.out.println("\nWould you like to view another student?");
 
 
             System.out.println("\nGoodbye");
+
+
+
+/////  Walkthrough While:  //////////////////
+
+//        System.out.println("\nWould you like to view another student?");
+//
+//        keepGoing = userInput.yesNo();
+//        System.out.println(keepGoing);
+//
+//    } while (keepGoing);
+//            System.out.println("\nGoodbye");
+
+
 
 
 
