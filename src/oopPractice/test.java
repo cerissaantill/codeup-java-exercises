@@ -1,22 +1,35 @@
 package oopPractice;
 
 public class test {
-
     public static void main(String[] args) {
 
+//        public interface Marker {
+//        }
 
-        String[] names = {"Rick", "Stacey", "Brad", "Becca"};
-        String x;
+//        interface Marker {
+//        }
 
-        try {
-            x = names[100];
-        } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("Exception caught!");
-            x = "";
-        } catch (Exception e) {
-            e.printStackTrace();
-        } finally {
-            System.out.println("This will always run.");
-        }
+//        interface Marker {
+//            public void write();
+//        }
+
+
+//        interface Marker {
+//            void write();
+//        }
+
+//        public class Marker {
+//            public void write() {}
+//        }
+
+
+//        abstract class Marker {
+//            public void write();
+//        }
+
+
+
+
     }
 }
+

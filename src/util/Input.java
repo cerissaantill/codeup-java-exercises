@@ -1,10 +1,10 @@
 package util;
-
 import java.util.Scanner;
 
 
 // create a class named Input that has a private property named Scanner.
 public class Input {
+
     private Scanner scanner;
 
 
@@ -17,18 +17,28 @@ public class Input {
     // create String getString() method that return command line  user input
 
     public String getString() {
-        return scanner.nextLine();
+        String input = scanner.nextLine();
+        return input;
     }
 
 
 
-
-    // boolean yesNo() method that returns command line user input
-
-    public boolean yesNo() {
-        String result = scanner.nextLine();
-        return result.equalsIgnoreCase("y") || result.equalsIgnoreCase("yes");
+    public boolean yesNo(){
+        String input = scanner.next();
+        if (input.equalsIgnoreCase("yes") || input.equalsIgnoreCase("y") || input.contains("yes")) {
+            return true;
+        } return false;
     }
+
+//
+//    public boolean yesNo(String prompt){
+//        System.out.println(prompt);
+//        String input = scanner.next();
+//        if (input.equalsIgnoreCase("yes") || input.equalsIgnoreCase("y") || input.contains("yes")) {
+//            return true;
+//        } return false;
+//    }
+
 
 
 
@@ -36,11 +46,20 @@ public class Input {
     // int getInt() method ...
 
     public int getInt() {
-        if (scanner.hasNextInt()) {
-            return scanner.nextInt();
+        System.out.println("\nEnter a number: \n");
+        String input = scanner.next();
+        if (input.equalsIgnoreCase("yes" || input.equalsIgnoreCase("y") || input.contains("yes")) {
+
         }
-        scanner.next();
-        return getInt();
+
+
+
+
+//        if (scanner.hasNextInt()) {
+//            return scanner.nextInt();
+//        }
+//        scanner.next();
+//        return getInt();
     }
 
 
@@ -85,7 +104,7 @@ public class Input {
 
     public static void main(String[] args) {
         Input in = new Input();
-        System.out.println("Enter yes or no [y/n");
+        System.out.println("Enter yes or no [y/n]");
         System.out.println(in.yesNo());
 
         System.out.println(in.getInt(2, 4));
